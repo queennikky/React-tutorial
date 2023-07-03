@@ -13,25 +13,15 @@ import Usestatebasics from './components/Usestatebasics';
 import Usestateboolean from './components/Usestateboolean';
 import Usestateobject from './components/Usestateobject';
 import Conditional from './components/Conditional';
+import Useeffect from './components/Useeffect';
+import Sneakers from './components/Sneakers';
 //
 
 
 function App() {
     return (
     <>
-    <Navbar />
-    <Banner />
-    <First />
-    <Second />
-    <Testing />
-    <Third />
-    <Books />
-    <User />
-    <Usestatearray />
-    <Usestatebasics />
-    <Usestateboolean />
-    <Usestateobject />
-    <Conditional />
+    <Sneakers />
     </>
   ); 
 }
